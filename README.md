@@ -1,4 +1,3 @@
-# M-LVC_CVPR2020
 # M-LVC: Multiple Frames Prediction for Learned Video Compression
 
 The project page for the paper:
