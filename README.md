@@ -17,6 +17,7 @@ If our paper and codes are useful for your research, please cite:
 If you have any questioon or find any bug, please feel free to contact:
 
 Jianping Lin @ University of Science and Technology of China (USTC)
+
 Email: ljp105@mail.ustc.edu.cn
 
 ## Introduction
