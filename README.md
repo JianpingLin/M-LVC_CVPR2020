@@ -62,6 +62,11 @@ python test.py --command compress --test_seq_dir directory_containing_testSequen
 Currently, we do not provide the entropy coding module. We give the estimated Bpp for these features. It is straightforward to compress these features by using traditional entropy coding tools, such as Range Coder.
 
 ### Experimental Results
+We test the proposed method on the JCT-VC (Classes B, C, D and E) and the [UVG](http://ultravideo.cs.tut.fi/#testsequences) datasets. Note that, the [UVG](http://ultravideo.cs.tut.fi/#testsequences) dataset has been enlarged recently. To compare with previous approaches, we only test on the original 7 videos in UVG, i.e., *Beauty*, *Bosphorus*, *HoneyBee*, *Jockey*, *ReadySetGo*, *ShakeNDry* and *YachtRide*.
+
+The detailed results (bpp, PSNR and MS-SSIM values) on each video dataset are shown in [data.txt](/RD_Results). The RD curves of our method compared with [Lu *et al.*, DVC](http://openaccess.thecvf.com/content_CVPR_2019/papers/Lu_DVC_An_End-To-End_Deep_Video_Compression_Framework_CVPR_2019_paper.pdf) and the x264/x265 with *LDP very fast* mode are shown in the figures in [](/RD_Results).
+
+
 
 # Contact
 Email: ljp105@mail.ustc.edu.cn
