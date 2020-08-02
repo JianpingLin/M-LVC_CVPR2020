@@ -14,7 +14,7 @@ If our paper and codes are useful for your research, please cite:
   year={2020}
 }
 ```
-If you have any questioon or find any bug, please feel free to contact:
+If you have any question or find any bug, please feel free to contact:
 
 Jianping Lin @ University of Science and Technology of China (USTC)
 
