@@ -46,7 +46,7 @@ We feed the video sequences in YUV420 format into the encoder. Since our code cu
 ```
 ffmpeg -pix_fmt yuv420p -s 1920x1080 -i input_video.yuv -vf scale="1920:1024" output_video.yuv
 ```
-The resized sequences of UVG and HEVC datasets can be downloaded from ([link]()).
+Our resized sequences of the UVG and HEVC datasets can be downloaded from ([link]()).
 
 You can use the following command to compress any class of the UVG and HEVC datasets:
 
