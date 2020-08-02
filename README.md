@@ -46,7 +46,7 @@ We feed the video sequences in YUV420 format into the encoder. Since our code cu
 ```
 ffmpeg -pix_fmt yuv420p -s 1920x1080 -i input_video.yuv -vf scale="1920:1024" output_video.yuv
 ```
-Our resized sequences of the UVG and HEVC datasets can be downloaded from ([link]()).
+Our resized sequences of the UVG and JCT-VC (Classes B, C, D and E) datasets can be downloaded from ([link]()).
 
 You can use the following command to compress any class of the UVG and HEVC datasets:
 
@@ -64,9 +64,4 @@ Currently, we do not provide the entropy coding module. We give the estimated Bp
 ### Experimental Results
 We test the proposed method on the JCT-VC (Classes B, C, D and E) and the [UVG](http://ultravideo.cs.tut.fi/#testsequences) datasets. Note that, the [UVG](http://ultravideo.cs.tut.fi/#testsequences) dataset has been enlarged recently. To compare with previous approaches, we only test on the original 7 videos in UVG, i.e., *Beauty*, *Bosphorus*, *HoneyBee*, *Jockey*, *ReadySetGo*, *ShakeNDry* and *YachtRide*.
 
-The detailed results (bpp, PSNR and MS-SSIM values) on each video dataset are shown in [data.txt](/RD_Results). The RD curves of our method compared with [Lu *et al.*, DVC](http://openaccess.thecvf.com/content_CVPR_2019/papers/Lu_DVC_An_End-To-End_Deep_Video_Compression_Framework_CVPR_2019_paper.pdf) and the x264/x265 with *LDP very fast* mode are shown in the figures in [](/RD_Results).
-
-
-
-# Contact
-Email: ljp105@mail.ustc.edu.cn
+The detailed results (bpp, PSNR and MS-SSIM values) on each video dataset are shown in [data.txt](/RD_Results). The RD curves of our method compared with [Lu *et al.*, DVC](http://openaccess.thecvf.com/content_CVPR_2019/papers/Lu_DVC_An_End-To-End_Deep_Video_Compression_Framework_CVPR_2019_paper.pdf) and the x264/x265 with *LDP very fast* mode are shown by the figures in /RD_Results folder. Note that, the RD results here are slightly better than the results in our paper, as we set the more proper quantization parameters of BPG to compress the I-frames.
