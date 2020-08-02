@@ -59,7 +59,7 @@ python test.py --command compress --test_seq_dir directory_containing_testSequen
 ```
 
 ### Entropy coding
-Currently, we do not provide the entropy coding module. We give the estimated Bpp for these features. It is straightforward to compress these features by using traditional entropy coding tools, such as Range Coder.
+Currently, we do not provide the entropy coding module. We give the estimated Bpp for the quantized latent representations. It is straightforward to compress them by using traditional entropy coding tools, such as Range Coder.
 
 ### Experimental Results
 We test the proposed method on the JCT-VC (Classes B, C, D and E) and the [UVG](http://ultravideo.cs.tut.fi/#testsequences) datasets. Note that, the [UVG](http://ultravideo.cs.tut.fi/#testsequences) dataset has been enlarged recently. To compare with previous approaches, we only test on the original 7 videos in UVG, i.e., *Beauty*, *Bosphorus*, *HoneyBee*, *Jockey*, *ReadySetGo*, *ShakeNDry* and *YachtRide*.
