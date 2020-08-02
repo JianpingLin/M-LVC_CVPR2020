@@ -48,7 +48,7 @@ ffmpeg -pix_fmt yuv420p -s 1920x1080 -i input_video.yuv -vf scale="1920:1024" ou
 ```
 Our resized sequences of the UVG and JCT-VC (Classes B, C, D and E) datasets can be downloaded from ([link]()).
 
-You can use the following command to compress any class of the UVG and HEVC datasets:
+You can use the following command to compress any class of the UVG and JCT-VC datasets:
 
 ```
 python test.py --command compress --test_seq_dir directory_containing_testSequence --test_class ClassC --exp_data_dir ./exp_data_dir -r path_to_model/model_name.ckpt --lambda 16
