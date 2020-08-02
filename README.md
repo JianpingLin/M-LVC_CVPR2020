@@ -38,7 +38,7 @@ The currently available code is for evaluation, while it can also be modified fo
 
 - BPG ([Download link](https://bellard.org/bpg/))
 
-(*In our PSNR model, we use BPG to compress I-frames instead of training learned image compression models. Here, we provide the executable files of BPG for windows.*)
+(*In our code, we use BPG to compress I-frames instead of training learned image compression models. Here, we upload the executable files of BPG for windows.*)
 
 ### Compressing video sequences
 
