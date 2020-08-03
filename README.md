@@ -42,7 +42,7 @@ The currently available code is for evaluation, while it can also be modified fo
 
 ### Compressing video sequences
 
-We feed the video sequences in YUV420 format into the encoder. Since our code currently only supports the sequences with the height and width as the multiples of 64, we first use ffmpeg to resize the original sequences to the multiples of 64, e.g.,
+Since our code currently only supports the sequences with the height and width as the multiples of 64, we first use ffmpeg to resize the original sequences to the multiples of 64, e.g.,
 ```
 ffmpeg -pix_fmt yuv420p -s 1920x1080 -i input_video.yuv -vf scale="1920:1024" output_video.yuv
 ```
