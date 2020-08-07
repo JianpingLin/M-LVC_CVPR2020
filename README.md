@@ -34,7 +34,7 @@ The currently available code is for evaluation, while it can also be modified fo
 
 - opencv-python, matplotlib, scipy, pillow
 
-- Pre-trained models ([Download link]())
+- Pre-trained models ([Download link](https://drive.google.com/file/d/1DaYh6_WTmrp0RoTfEPZSjZUujr4rGhqx/view?usp=sharing))
 
 - BPG ([Download link](https://bellard.org/bpg/))
 
@@ -46,7 +46,7 @@ Since our code currently only supports the sequences with the height and width a
 ```
 ffmpeg -pix_fmt yuv420p -s 1920x1080 -i input_video.yuv -vf scale="1920:1024" output_video.yuv
 ```
-Our resized sequences of the UVG and JCT-VC (Classes B, C, D and E) datasets can be downloaded from ([link]()).
+Our resized sequences of JCT-VC Class C dataset can be downloaded from ([link](https://drive.google.com/file/d/1gFNscYeZ3C-ZZj1T9IsWOtXBT3qtue4-/view?usp=sharing)).
 
 You can use the following command to compress any class of the UVG and JCT-VC datasets:
 
